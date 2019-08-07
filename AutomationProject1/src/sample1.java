@@ -23,6 +23,8 @@ public class sample1 {
 	File f= ((TakesScreenshot)driver1).getScreenshotAs(OutputType.FILE);
 	FileUtils.copyFile(f, new File("C:\\Users\\rgunturu\\Desktop\\sashank26\\image1.png"));
 	
+	FileUtils.copyFile(f, new File("C:\\Users\\rgunturu\\Desktop\\sashank26\\image1.png"));
+	
 	ArrayList CountWindow = new ArrayList((driver1.getWindowHandles()));
 	
 	driver1.switchTo().window((String)CountWindow.get(1).toString());
